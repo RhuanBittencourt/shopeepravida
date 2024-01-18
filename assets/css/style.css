@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+
+img {
+    width: 24px;
+    height: auto;
+
+}
+
+
+
+.bio a {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color:#000000;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-left: 8px solid #EA501F;
+    font-size: 1rem;
+    font-family: 'montserrat-medium';
+    color: #FFF;
+
+}
+
+.bio a:hover {
+    background-color: rgb(53, 53, 53);
+}
+
+h2 {
+    color: #000000;
+    font-size: 1.2rem;
+    font-family: 'montserrat-medium';
+    margin-bottom: 5px;
+    line-height: 1.7rem;
+    font-weight: bold;
+}
+
+.bio span {
+    font-size: 2rem;
+    color:#EA501F;
+    font-family: 'montserrat-black';
+    letter-spacing: 2px;
+    margin-top: 0;
+    font-style: italic;
+
+}
+p {
+    margin-top: 5px;
+    font-family: 'montserrat-medium';
+    color: #000000;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+
+.foto {
+    background-image: url('../imagens/logo.jpg');
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid #EA501F;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.heartbeat {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+
+ 
+
+ @-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+
+
+
+
+footer {
+    margin-top: 80px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+footer h3 {
+    font-size: 1rem;
+    color: #D9D9D9;
+}
+#span-footer {
+    color: #D9D9D9;
+    font-style: italic;
+}
+
+#span-footer:hover {
+    color: #4069d8;
+}
+
+footer a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Esse é um arquivo CSS para normalizar o seu site em todos os navegadores
+como se fosse uma configuração padrão */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+      font-size: 100%;
+      font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+  }
+  html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: var(--cor-cinza-escuro);
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   background: linear-gradient(180deg, #EA501F 0%, #ffffff 100%);
+    scroll-behavior: smooth;
+  }
+  a,img,svg,button {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -khtml-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none;
+    -o-user-select: none;
+  }
+  a {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  img {
+    border-style: none;
+  }
+  button {
+    font-family: inherit;
+    line-height: 1;
+    margin: 0;
+    -moz-appearance: none !important;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    cursor: pointer;
+  }
+  button * {
+    pointer-events: none;
+  }
+  input {
+    font-family: inherit;
+    line-height: 1;
+    -moz-appearance: none !important;
+    overflow: visible;
+  }
+  textarea {
+    font-family: inherit;
+    line-height: 1;
+    -moz-appearance: none !important;
+    overflow: auto;
+  }
+  [type="button"] {
+    -webkit-appearance: button;
+  }
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner {
+    border-style: none;
+  }
+  [hidden] {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
